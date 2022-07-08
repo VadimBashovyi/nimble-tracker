@@ -197,19 +197,6 @@ body {
     font-size: 18px;
   }
 }
-@media screen and (max-width: 559px) {
-.list-toggleBtn,
-.list-deleteBtn {
-  width: 50px;
-  height: 50px;
-  outline: none;
-  border: none;
-  border-radius: 20px;
-  background-color: #fff;
-  color: ##1ce08f;
-  
-}
-}
 `
 
 export default GlobalStyle

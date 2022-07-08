@@ -17,9 +17,9 @@ const TrackerList = ({
     }
   }, 1000)
 
-  const toggleIcon = isRunning ? <ImPause2 size={15} /> : <ImPlay3 size={15} />
+  const toggleIcon = isRunning ? <ImPause2 size={50} /> : <ImPlay3 size={50} />
 
-  const deleteIcon = <ImCross size={15} color={'#FF69B4'} />
+  const deleteIcon = <ImCross size={50} color={'#FF69B4'} />
   return (
     <li className={isRunning ? 'list-item active' : 'list-item'}>
       <p className="list-text">{title} </p>
